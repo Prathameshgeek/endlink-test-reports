@@ -25,13 +25,6 @@ endlink-test-reports/
 └── README.md                 # This file
 ```
 
-## 🚀 Quick Access
-
-### 📊 Latest Test Report
-- **[View Latest Report](https://prathameshgeek.github.io/endlink-test-reports/latest/)** - Always shows the most recent test execution results
-
-### 📈 Historical Reports
-- **[Browse All Reports](https://prathameshgeek.github.io/endlink-test-reports/reports/)** - Access historical test data (last 30 runs)
 
 ## 🔧 Automated Pipeline Features
 
@@ -72,20 +65,6 @@ Each test report includes:
 - **Deployment**: GitHub Pages
 - **Authentication**: Secure token-based GitHub integration
 - **Build Retention**: Last 7 Jenkins builds maintained
-
-## 🌐 Accessing Reports
-
-### Direct URLs
-```
-Latest Report:    https://prathameshgeek.github.io/endlink-test-reports/latest/
-Historical:       https://prathameshgeek.github.io/endlink-test-reports/reports/{BUILD_NUMBER}_{TIMESTAMP}_{ENVIRONMENT}/
-```
-
-### Report Naming Convention
-```
-Format: {BUILD_NUMBER}_{YYYY-MM-DD_HH-MM}_{ENVIRONMENT}
-Example: 45_2024-12-15_14-30_QA
-```
 
 ## 📋 Build Parameters
 
